@@ -31,13 +31,13 @@ body{
 }
 div #outer{
 	width:100%;
-	justify-content: center;
+	/* justify-content: center; */
 }
 div #main {
 	width:100%;
 	display: flex;
-	margin-right: 2%;
-	justify-content: center;
+	/* margin-right: 2%; */
+	/* justify-content: center; */
 }
 div #rb {
 	display: flex;
