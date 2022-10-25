@@ -1,6 +1,3 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
 <div id=main>
 <?php
 <meta http-equiv="refresh" content="180">
@@ -17,13 +14,7 @@ echo '<div id=ri>'. '<p>' . $rankNameC .'&ensp;-' .'</p>' .'</div>';
 echo '<div id=rRR>'. '<p>' .$rankRR .'ᴿᴿ'.'</p>' .'</div>';
 ?>
 </div>
-
-
-
-
 <style>
-
-
 div#main {
     display: flex;
 }
@@ -43,7 +34,6 @@ div #ri p {
     color: white;
     margin: 35px;
     margin-left: -41px;
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 102px;
 }
 div #rRR {
@@ -55,6 +45,5 @@ div #rRR p{
 	margin:14px;
 	margin-left: -11px;
 	color:white;
-	font-family: 'Josefin Sans', sans-serif;
 	}
 </style>
