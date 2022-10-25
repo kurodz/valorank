@@ -10,20 +10,12 @@ $rankbandge = $data->data->images->large;
 $rankName = $data->data->currenttierpatched;
 $rankNameC = strtoupper($rankName);
 $rankRR = $data->data->ranking_in_tier;
-
-
 echo '<div id=rb>'.'<img src='.$rankbandge.'/>' . '</div>';
 echo '<div id=ri>'. '<p>' . $rankNameC .'&ensp;-' .'</p>' .'</div>';
 echo '<div id=rRR>'. '<p>' .$rankRR .'ᴿᴿ'.'</p>' .'</div>';
 ?>
 </div>
-
-
-
-
 <style>
-
-
 div#main {
     display: flex;
 }
