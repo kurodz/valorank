@@ -57,3 +57,9 @@ div #rRR p{
 	font-family: 'Josefin Sans', sans-serif;
 	}
 </style>
+<script>
+setTimeout(function(){
+window.location.reload(1);
+}, 5000);
+</script>
+	
