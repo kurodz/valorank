@@ -60,6 +60,6 @@ div #rRR p{
 <script>
 setTimeout(function(){
 window.location.reload(1);
-}, 5000);
+}, 180000);
 </script>
 	
