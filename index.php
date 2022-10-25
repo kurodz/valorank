@@ -9,7 +9,7 @@ $rankbandge = $data->data->images->large;
 $rankName = $data->data->currenttierpatched;
 $rankNameC = strtoupper($rankName);
 $rankRR = $data->data->ranking_in_tier;
-
+if($json === false){header("Refresh:0");}
 
 echo '<div id=rb>'.'<img src='.$rankbandge.'/>' . '</div>';
 echo '<div id=ri>'. '<p>' . $rankNameC .'&ensp;-' .'</p>' .'</div>';
