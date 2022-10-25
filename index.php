@@ -1,6 +1,5 @@
 
 <?php
-<meta http-equiv="refresh" content="180">
 $json = file_get_contents('https://api.henrikdev.xyz/valorant/v1/mmr/ap/kazaf/carry');
 $data = json_decode($json);
 $rankbandge = $data->data->images->large;
