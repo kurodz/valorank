@@ -78,5 +78,5 @@ div #rRR p{
 <script>
 setTimeout(function(){
 window.location.reload(1);
-}, 180000);
+}, 90000);
 </script>
