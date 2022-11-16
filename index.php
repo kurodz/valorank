@@ -11,7 +11,7 @@ $rankName = $data->data->currenttierpatched;
 $rankNameC = strtoupper($rankName);
 $rankRR = $data->data->ranking_in_tier;
 
-if($json === false){header("Refresh:0");}
+if($json === false){header("Refresh:0");echo '<style>body{display:none;}</style>';}
 
 echo '<div id=rRR>'. '<p>' .$rankRR .'ᴿᴿ'.'</p>' .'</div>';
 echo '<div id=ri>'. '<p>' . '-&ensp;'. $rankNameC .'</p>' .'</div>';
